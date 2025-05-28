@@ -56,6 +56,11 @@ public class HeapSort {
         int size = sc.nextInt();
         int[] arr = new int[size];
         int i = 0;
+        do {
+            System.out.print("Value "  + (i + 1) + ": ");
+            arr[i] = sc.nextInt();
+            i++;
+        } while (i < size);
 
         sc.close();
         return arr;
