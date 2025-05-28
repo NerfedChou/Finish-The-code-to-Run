@@ -75,12 +75,12 @@ public class HeapSort {
     }
 
     public static void Function() {
-        int arr[]  = Input();
+        int[] arr  = Input();
         System.out.println("Original Array: ");
-        print(arr);
+        HeapSort.print(arr);
         System.out.println("Sorted Array: ");
-        heapSort(arr);
-        print(arr);
+        HeapSort.heapSort(arr);
+        HeapSort.print(arr);
     }
     public static void main(String[] args) {
         Function();
