@@ -67,4 +67,22 @@ public class HeapSort {
 
     }
 
+    public static void  print(int[] arr) {
+        for (int each : arr) {
+            System.out.print(each + " ");
+        }
+        System.out.println();
+    }
+
+    public static void Function() {
+        int arr[]  = Input();
+        System.out.println("Original Array: ");
+        print(arr);
+        System.out.println("Sorted Array: ");
+        heapSort(arr);
+        print(arr);
+    }
+    public static void main(String[] args) {
+        Function();
+    }
 }
